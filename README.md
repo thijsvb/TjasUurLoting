@@ -15,6 +15,10 @@ De loting is niet compleet willekeurig, vandaar ook deze repository, er zijn twe
 
 De eerste uitzondering lijkt mij vrij logisch, we streven er naar iedereen even vaak te laten schaatsen. De tweede uitzondering is omdat hardrijders onder normale omstandigheden 3 trainingen per week hebben en recreanten 2. Omdat er natuurlijk betaald wordt voor een baankaart willen we deze verhouding in stand houden.
 
+Omdat de verhouding van trainingen in de loting meegenomen wordt, mogen recreanten ook naar het zondaguur. Het woensdaguur is van de KNSB en we hebben daar nog geen bericht over ontvangen. Voor nu gaan we er van uit dat er slechts een verwaarloosbaar aantal plekken zal zijn voor ons.
+
+Bij elke training (maandag, donderdag, zondag) zullen 3 trainers en 1 EHBO'er zijn, dat betekent dat er 26 rijders kunnen komen. Op de maandag en donderdag zijn 4 van deze plekken voor Kras, wat betekent dat er 22 plekken voor Tjassers over blijven. Op zondag zijn alle 26 plekken voor Tjassers. 
+
 **Dit is niet de plek om deze procedure te bespreken, het gaat hier enkel om de implementatie.** Vragen of opmerkingen over deze procedure kunnen naar de voorzitter gemaild worden.
 
 ### Handleiding
