@@ -4,7 +4,7 @@ import numpy as np
 import json
 
 
-# Bestandnamen voor de huidige telling, doorgegeven voorkeuren, nieuwe telling & selectie output
+# Bestandsnamen voor de huidige telling, doorgegeven voorkeuren, nieuwe telling & selectie output
 tellingIn, voorkeurIn, tellingOut, selectieOut = sys.argv[1:]
 
 # test telling vanuit csv
@@ -28,18 +28,15 @@ for hr in hardrijders:
         telling[hr] = {"HR": True, "n": 0}
 
 # Import aanmeldingen
-#kolommen:Voornaam,Achternaam,email,maandag?,donderdag?,zondag?
-TjassersDataRaw = np.genfromtxt(voorkeurIn, names=True, dtype=None, delimiter=',', encoding=None)
-TjassersData = []
-for row in TjassersDataRaw:
-    TjassersData.append(list(row))
-TjassersData = np.array(TjassersData)
+# kolommen: Voornaam, Achternaam, email, maandag?, donderdag?, zondag?
+TjassersData = np.genfromtxt(voorkeurIn, names=True, dtype=None, delimiter=',', encoding=None)
 
 # recreanten en hardrijders splitsen, zodat die uniform verdeeld kunnen worden over de dagen
 # waar nodig voeg toe aan telling dictionary
 recreantenData = []
 hardrijdersData = []
 for Tjasser in TjassersData:
+    Tjasser = list(Tjasser)
     email = Tjasser[2]
     if email in telling:
         if telling[email]["HR"]:
@@ -50,32 +47,29 @@ for Tjasser in TjassersData:
         telling[email] = {"HR": False, 'n': 0}
         recreantenData.append(Tjasser)
 
-#sorteer op volgorde van aantal keren geschaatst, zodat het zo uniform mogelijk verdeeld wordt over de dagen
-recreantenData = np.array(recreantenData)
-emails = recreantenData.T[2]
-nschaatsen = np.array([telling[e]['n'] for e in emails])
-inds = nschaatsen.argsort()
-recreantenData = recreantenData[inds]
+# sorteer op volgorde van aantal keren geschaatst, zodat het zo uniform mogelijk verdeeld wordt over de dagen
+def sorteer(Data):
+    Data = np.array(Data)
+    emails = Data.T[2]
+    nschaatsen = np.array([telling[email]['n'] for email in emails])
+    inds = nschaatsen.argsort()
+    return Data[inds]
 
-hardrijdersData = np.array(hardrijdersData)
-emails = hardrijdersData.T[2]
-nschaatsen = np.array([telling[e]['n'] for e in emails])
-inds = nschaatsen.argsort()
-hardrijdersData = hardrijdersData[inds]
-
+recreantenData = sorteer(recreantenData)
+hardrijdersData = sorteer(hardrijdersData)
 
 
 
 TjassersMaandag = []
 TjassersDonderdag = []
 TjassersZondag = []
-# compenstatiefactor omdat er meer plek is op zondag
-zf = 22.0/26.0
+
+zf = 22.0/26.0  # compensatiefactor omdat er meer plek is op zondag
 
 # verdeel Tjassers zo gelijk mogelijk over de dagen
 for data in (list(recreantenData), list(hardrijdersData)):
-    while len(data)>0:
-        Tjasser = data.pop()
+    for Tjasser in data:
+
         m, d, z = Tjasser[3:]
 
         # Als de Tjasser maar op een dag kan, deel hem daar in
@@ -106,7 +100,7 @@ for data in (list(recreantenData), list(hardrijdersData)):
                 TjassersZondag.append(Tjasser)
             # Opvanger voor het geval twee dagen even vol zitten
             else:
-                TjassersDonderdag.append(Tjasser)
+                TjassersDonderdag.append(Tjasser) # wat als mensen 0 voorkeursdagen hebben ingevuld? dan komen ze ook hier terecht
 
 print("Totaal aantal Tjassers:", len(TjassersData))
 print("Pool maandag:", len(TjassersMaandag))
@@ -119,19 +113,17 @@ geselecteerdenZondag = []
 gesnDagen = (geselecteerdenMaandag, geselecteerdenDonderdag, geselecteerdenZondag)
 TjassersDagen = (TjassersMaandag, TjassersDonderdag, TjassersZondag)
 plekkenDagen = (22, 22, 26)
-
-#compensatiefactor voor hardrijders
-hf = 2/3
+hf = 2/3  #compensatiefactor voor hardrijders
 
 for geselecteerden, Tjassers, plekken in zip(gesnDagen, TjassersDagen, plekkenDagen):
     while len(geselecteerden) < plekken or len(Tjassers) == 1:
-        # Zet de Tjassers elke ronde op willikeurige volgorde, dit is eigenlijk de enige loting
+        # Zet de Tjassers elke ronde op willekeurige volgorde, dit is eigenlijk de enige loting
         random.shuffle(Tjassers)
         tried = []
-        while len(Tjassers)>1:
-            #pak de eerstvolgende Tjasser om te vergelijken met de rest
+        while len(Tjassers) > 1:
+            # pak de eerstvolgende Tjasser om te vergelijken met de rest
             Tjasser = Tjassers.pop()
-            #vind wat het minst aantal keren geschaatst is van de rest
+            # vind wat het minst aantal keren geschaatst is van de rest
             emails = [T[2] for T in Tjassers]
             nschaatsen = [telling[e]['n'] for e in emails]
             minN = min(nschaatsen)
@@ -156,12 +148,12 @@ for geselecteerden, Tjassers, plekken in zip(gesnDagen, TjassersDagen, plekkenDa
 # Output de selectie
 f = open(selectieOut, 'w')
 for geselecteerden, pechvogels, dag in zip(gesnDagen, TjassersDagen, ("maandag", "donderdag", "zondag")):
-    f.write("Geselecteerden "+dag+":\n")
+    f.write("Geselecteerden " + dag + ":\n")
     for geselecteerde in geselecteerden:
-        f.write(geselecteerde[0] + ", " + geselecteerde[1] + ", " + geselecteerde[2] + '\n')
-    f.write("\nNiet geslecteerd "+dag+":\n")
+        f.write(", ".join(geselecteerde[0:3]) + '\n')
+    f.write("\nNiet geselecteerd " + dag + ":\n")
     for pechvogel in pechvogels:
-        f.write(pechvogel[0] + ", " + pechvogel[1] + ", " + pechvogel[2] + '\n')
+        f.write(", ".join(pechvogel[0:3]) + '\n')
     f.write("\n-------------------------------\n")
 f.close()
 
