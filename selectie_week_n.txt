@@ -1,153 +1,153 @@
 Geselecteerden maandag:
-Af@Jansen.com
-T@Puk.com
-Bo@de Wit.com
-A@de Jong.com
-T@Krekel.com
-Bk@Krekel.com
 jaap@krk.com
-Aj @de Jong.com
-Al@de Wit.com
-Q@van Beers.com
-Bb@Puk.com
-Bk@Smit.com
-C@van Beers.com
-Pietje@Krekel.com
-Au@Puk.com
-Ao@Krekel.com
-Be@de Jong.com
-Q@de Wit.com
-Ap @Krekel.com
-G@Krekel.com
-W@van Beers.com
-Bh@Jansen.com
+Bk@Krekel.com
+A@de Jong.com
 Ar@van Beers.com
-G@Smit.com
-J @de Wit.com
-Aw@Krekel.com
-Y@Jansen.com
-Ad@de Jong.com
-Ba@Jansen.com
+Bo@de Wit.com
+T@Krekel.com
 F@Puk.com
+J @de Wit.com
+Ad@de Jong.com
+Bh@Jansen.com
+Pietje@Krekel.com
+Be@de Jong.com
+G@Krekel.com
+Bb@Puk.com
+T@Puk.com
+G@Smit.com
+Q@van Beers.com
 Ax@de Jong.com
+Bk@Smit.com
+Ba@Jansen.com
+Aw@Krekel.com
+W@van Beers.com
+Ao@Krekel.com
+Al@de Wit.com
+Au@Puk.com
+Aj @de Jong.com
+C@van Beers.com
 D@Jansen.com
+Af@Jansen.com
+Q@de Wit.com
+Ac@de Jong.com
+Y@Jansen.com
+Ap @Krekel.com
 
 Niet geslecteerd maandag:
-Ac@de Jong.com
+Ag@Jansen.com
 Bh@de Wit.com
-Al@van Beers.com
-Y@de Wit.com
 Ak@de Jong.com
+Y@de Wit.com
+Ai@Krekel.com
+Al@van Beers.com
+Ba@de Wit.com
 Be@Smit.com
 Z@Jansen.com
-Ba@de Wit.com
 L@Jansen.com
-Ai@Krekel.com
-Ag@Jansen.com
 M@Puk.com
 
 -------------------------------
 Geselecteerden donderdag:
-Ac@Smit.com
-K@Jansen.com
-Ak@van Beers.com
-Av @Puk.com
-X@de Wit.com
-Bn@van Beers.com
-Aq@Smit.com
-D@de Wit.com
-H@de Jong.com
-Bl@de Jong.com
-E@Puk.com
-Ax@Smit.com
-Ag@Puk.com
-B@van Beers.com
-Bf@van Beers.com
-Aa@Krekel.com
-Ay@de Jong.com
-R@Jansen.com
-N@Smit.com
-I@de Jong.com
-As@de Wit.com
-U@Smit.com
-Ay@van Beers.com
-Am@Jansen.com
-Ad@van Beers.com
 Av @Krekel.com
+Am@Jansen.com
 O@Smit.com
-V @Smit.com
-Ap @Smit.com
+D@de Wit.com
 An@Puk.com
+Ad@van Beers.com
+Bn@van Beers.com
 Am@de Wit.com
-Bi@Puk.com
+X@de Wit.com
+V @Smit.com
 A@Smit.com
+Ay@van Beers.com
+Bi@Puk.com
+E@Puk.com
+Bf@van Beers.com
+Av @Puk.com
+U@Smit.com
+Ak@van Beers.com
+B@van Beers.com
+Ac@Smit.com
+R@Jansen.com
+H@de Jong.com
+Ag@Puk.com
+Bl@de Jong.com
+K@Jansen.com
+Ax@Smit.com
+N@Smit.com
+Aa@Krekel.com
+Aq@Smit.com
+Ap @Smit.com
+As@de Wit.com
+I@de Jong.com
 
 Niet geslecteerd donderdag:
+Ay@de Jong.com
+Bi@Jansen.com
+J @van Beers.com
+Bb@Jansen.com
 X@van Beers.com
 Aj @Smit.com
-Af@de Wit.com
 Bf@de Jong.com
-Ab@Krekel.com
-Bb@Jansen.com
 U@Krekel.com
-J @van Beers.com
+Ab@Krekel.com
+Af@de Wit.com
 S@Jansen.com
-Bi@Jansen.com
 
 -------------------------------
 Geselecteerden zondag:
-Bm@de Jong.com
+At@de Wit.com
 Bl@Smit.com
 Au@Jansen.com
-B@de Jong.com
-K@de Wit.com
-P @van Beers.com
-E@Jansen.com
-pietje@puk.nl
-L@Puk.com
-Bn@de Wit.com
-Aq@de Jong.com
-Aa@Puk.com
-Bc@Krekel.com
-V @de Jong.com
-Bd@Smit.com
-At@de Wit.com
-Bm@van Beers.com
-H@Smit.com
-Japie@Smit.com
-As@van Beers.com
-At@Jansen.com
-C@de Wit.com
-Ab@Smit.com
-Aw@Smit.com
-Z@Puk.com
-Bj @Krekel.com
-M@Krekel.com
-I@van Beers.com
-An@Jansen.com
-Ai@Smit.com
-S@Puk.com
-Bo@de Jong.com
-Bg@de Wit.com
 Az@de Wit.com
-Ar@de Jong.com
-Ah@Krekel.com
+Bm@de Jong.com
+F@Krekel.com
+V @de Jong.com
 Ae@de Wit.com
+Bm@van Beers.com
+Bo@de Jong.com
+Aw@Smit.com
+I@van Beers.com
+As@van Beers.com
+M@Krekel.com
+Aq@de Jong.com
+Japie@Smit.com
+B@de Jong.com
+Z@Puk.com
+An@Jansen.com
+Ab@Smit.com
+Bc@Krekel.com
+L@Puk.com
+Bj @Krekel.com
+Ai@Smit.com
+H@Smit.com
+Ah@Krekel.com
 O@de Jong.com
+C@de Wit.com
+P @van Beers.com
+Ar@de Jong.com
+Aa@Puk.com
+K@de Wit.com
+pietje@puk.nl
+S@Puk.com
+Bn@de Wit.com
+Bd@Smit.com
+Bg@de Wit.com
+E@Jansen.com
+At@Jansen.com
 
 Niet geslecteerd zondag:
-F@Krekel.com
-P @de Jong.com
-W@de Jong.com
-N@Krekel.com
-Bc@Puk.com
-Az@van Beers.com
-Bd@Krekel.com
-Ae@van Beers.com
-Ah@Puk.com
-R@de Wit.com
 Bj @Puk.com
+Az@van Beers.com
+R@de Wit.com
+Ah@Puk.com
+Bc@Puk.com
+W@de Jong.com
 Bg@van Beers.com
+P @de Jong.com
 Ao@Puk.com
+Ae@van Beers.com
+N@Krekel.com
+Bd@Krekel.com
 
 -------------------------------
