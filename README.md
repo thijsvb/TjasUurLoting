@@ -26,5 +26,5 @@ Het programma `TjasUurLoting.py` voert de loting uit en heeft daarbij maar liefs
 
 Om het programma te testen met de testdata run:
 ```
-./TjasUurLoting.py telling_week_n.json voorkeur.csv telling_week_n+1.json selectie_week_n.csv
+./TjasUurLoting.py telling_week_n.json voorkeur.csv telling_week_n+1.json selectie_week_n.txt
 ```

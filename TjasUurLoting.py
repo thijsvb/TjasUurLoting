@@ -158,10 +158,10 @@ f = open(selectieOut, 'w')
 for geselecteerden, pechvogels, dag in zip(gesnDagen, TjassersDagen, ("maandag", "donderdag", "zondag")):
     f.write("Geselecteerden "+dag+":\n")
     for geselecteerde in geselecteerden:
-        f.write(geselecteerde[2] + '\n')
+        f.write(geselecteerde[0] + ", " + geselecteerde[1] + ", " + geselecteerde[2] + '\n')
     f.write("\nNiet geslecteerd "+dag+":\n")
     for pechvogel in pechvogels:
-        f.write(pechvogel[2] + '\n')
+        f.write(pechvogel[0] + ", " + pechvogel[1] + ", " + pechvogel[2] + '\n')
     f.write("\n-------------------------------\n")
 f.close()
 
