@@ -116,7 +116,7 @@ plekkenDagen = (23, 23, 27)
 hf = 2/3  #compensatiefactor voor hardrijders
 
 for geselecteerden, Tjassers, plekken in zip(gesnDagen, TjassersDagen, plekkenDagen):
-    while len(geselecteerden) < plekken or len(Tjassers) == 1:
+    while len(geselecteerden) < plekken:
         # Zet de Tjassers elke ronde op willekeurige volgorde, dit is eigenlijk de enige loting
         random.shuffle(Tjassers)
         tried = []
@@ -136,6 +136,8 @@ for geselecteerden, Tjassers, plekken in zip(gesnDagen, TjassersDagen, plekkenDa
             if telling[email]['n'] <= minN:
                 geselecteerden.append(Tjasser)
                 telling[email]['n'] += 1
+                if len(geselecteerden) == plekken:
+                    break
             else:
                 tried.append(Tjasser)
         # begin opnieuw als de hele groep geprobeerd is maar er nog plekken zijn
