@@ -1,153 +1,153 @@
 Geselecteerden maandag:
-Ap , Krekel, Ap @Krekel.com
-C, van Beers, C@van Beers.com
-T, Puk, T@Puk.com
-Af, Jansen, Af@Jansen.com
-Japie, Krekel, jaap@krk.com
-G, Krekel, G@Krekel.com
-Au, Puk, Au@Puk.com
-Aj , de Jong, Aj @de Jong.com
-T, Krekel, T@Krekel.com
-Aw, Krekel, Aw@Krekel.com
-G, Smit, G@Smit.com
+R, Jansen, R@Jansen.com
+Ah, Krekel, Ah@Krekel.com
+Aw, Smit, Aw@Smit.com
+Bn, de Wit, Bn@de Wit.com
+Bm, van Beers, Bm@van Beers.com
+F, Krekel, F@Krekel.com
+Pietje, Puk, pietje@puk.nl
+Bc, Krekel, Bc@Krekel.com
 Q, van Beers, Q@van Beers.com
-Bb, Puk, Bb@Puk.com
-A, de Jong, A@de Jong.com
 Ad, de Jong, Ad@de Jong.com
-Ao, Krekel, Ao@Krekel.com
-F, Puk, F@Puk.com
-D, Jansen, D@Jansen.com
-Ar, van Beers, Ar@van Beers.com
-Bo, de Wit, Bo@de Wit.com
-Bk, Smit, Bk@Smit.com
-Ax, de Jong, Ax@de Jong.com
-Bk, Krekel, Bk@Krekel.com
-Ba, Jansen, Ba@Jansen.com
-Al, de Wit, Al@de Wit.com
-Be, de Jong, Be@de Jong.com
-Bh, Jansen, Bh@Jansen.com
-Y, Jansen, Y@Jansen.com
-Pietje, Krekel, Pietje@Krekel.com
-Q, de Wit, Q@de Wit.com
-W, van Beers, W@van Beers.com
-Ac, de Jong, Ac@de Jong.com
+V , de Jong, V @de Jong.com
+At, Jansen, At@Jansen.com
+Bj , Krekel, Bj @Krekel.com
+Ab, Smit, Ab@Smit.com
+Ae, de Wit, Ae@de Wit.com
+Aq, de Jong, Aq@de Jong.com
+C, de Wit, C@de Wit.com
+Japie, Smit, Japie@Smit.com
+M, Krekel, M@Krekel.com
+Ar, de Jong, Ar@de Jong.com
+Bm, de Jong, Bm@de Jong.com
+Az, de Wit, Az@de Wit.com
+Bo, de Jong, Bo@de Jong.com
+H, Smit, H@Smit.com
+B, de Jong, B@de Jong.com
+Z, Puk, Z@Puk.com
+At, de Wit, At@de Wit.com
+Bg, de Wit, Bg@de Wit.com
+I, van Beers, I@van Beers.com
+L, Puk, L@Puk.com
+O, de Jong, O@de Jong.com
+G, Krekel, G@Krekel.com
 
-Niet geslecteerd maandag:
-J , de Wit, J @de Wit.com
-Ai, Krekel, Ai@Krekel.com
-M, Puk, M@Puk.com
-L, Jansen, L@Jansen.com
-Be, Smit, Be@Smit.com
-Y, de Wit, Y@de Wit.com
-Ak, de Jong, Ak@de Jong.com
-Z, Jansen, Z@Jansen.com
-Ag, Jansen, Ag@Jansen.com
-Al, van Beers, Al@van Beers.com
-Ba, de Wit, Ba@de Wit.com
+Niet geselecteerd maandag:
+E, Jansen, E@Jansen.com
+W, de Jong, W@de Jong.com
 Bh, de Wit, Bh@de Wit.com
+N, Krekel, N@Krekel.com
+Ao, Puk, Ao@Puk.com
+L, Jansen, L@Jansen.com
+Ag, Jansen, Ag@Jansen.com
+Ba, de Wit, Ba@de Wit.com
+Be, Smit, Be@Smit.com
+Bb, Jansen, Bb@Jansen.com
+Ah, Puk, Ah@Puk.com
+R, de Wit, R@de Wit.com
 
 -------------------------------
 Geselecteerden donderdag:
 U, Smit, U@Smit.com
-Am, Jansen, Am@Jansen.com
-Aq, Smit, Aq@Smit.com
-Bi, Puk, Bi@Puk.com
-Am, de Wit, Am@de Wit.com
-N, Smit, N@Smit.com
-R, Jansen, R@Jansen.com
-Bl, de Jong, Bl@de Jong.com
-Aa, Krekel, Aa@Krekel.com
 As, de Wit, As@de Wit.com
-I, de Jong, I@de Jong.com
-Ak, van Beers, Ak@van Beers.com
-Ax, Smit, Ax@Smit.com
-D, de Wit, D@de Wit.com
-V , Smit, V @Smit.com
-Av , Krekel, Av @Krekel.com
-A, Smit, A@Smit.com
-An, Puk, An@Puk.com
-Bf, van Beers, Bf@van Beers.com
-H, de Jong, H@de Jong.com
-O, Smit, O@Smit.com
-Ad, van Beers, Ad@van Beers.com
-Av , Puk, Av @Puk.com
-Ay, de Jong, Ay@de Jong.com
-Ag, Puk, Ag@Puk.com
-Bn, van Beers, Bn@van Beers.com
-Ap , Smit, Ap @Smit.com
-B, van Beers, B@van Beers.com
-Ay, van Beers, Ay@van Beers.com
+K, de Wit, K@de Wit.com
+Q, de Wit, Q@de Wit.com
 K, Jansen, K@Jansen.com
-X, de Wit, X@de Wit.com
+Aa, Puk, Aa@Puk.com
+Ad, van Beers, Ad@van Beers.com
 E, Puk, E@Puk.com
+I, de Jong, I@de Jong.com
+H, de Jong, H@de Jong.com
+Bf, van Beers, Bf@van Beers.com
+Ap , Smit, Ap @Smit.com
+X, de Wit, X@de Wit.com
+D, de Wit, D@de Wit.com
+An, Puk, An@Puk.com
+B, van Beers, B@van Beers.com
+Ag, Puk, Ag@Puk.com
+Aa, Krekel, Aa@Krekel.com
+Bl, de Jong, Bl@de Jong.com
+Am, Jansen, Am@Jansen.com
+V , Smit, V @Smit.com
+Au, Jansen, Au@Jansen.com
+A, Smit, A@Smit.com
+Aq, Smit, Aq@Smit.com
+Av , Puk, Av @Puk.com
+Ay, van Beers, Ay@van Beers.com
+An, Jansen, An@Jansen.com
+Bi, Puk, Bi@Puk.com
+N, Smit, N@Smit.com
+Ak, van Beers, Ak@van Beers.com
+Av , Krekel, Av @Krekel.com
+Ax, Smit, Ax@Smit.com
 
-Niet geslecteerd donderdag:
-Ac, Smit, Ac@Smit.com
-Af, de Wit, Af@de Wit.com
-U, Krekel, U@Krekel.com
-X, van Beers, X@van Beers.com
-Bi, Jansen, Bi@Jansen.com
+Niet geselecteerd donderdag:
+Bn, van Beers, Bn@van Beers.com
+Ak, de Jong, Ak@de Jong.com
 Ab, Krekel, Ab@Krekel.com
-S, Jansen, S@Jansen.com
-Bf, de Jong, Bf@de Jong.com
+Ae, van Beers, Ae@van Beers.com
 Aj , Smit, Aj @Smit.com
-Bb, Jansen, Bb@Jansen.com
-J , van Beers, J @van Beers.com
+P , de Jong, P @de Jong.com
+S, Jansen, S@Jansen.com
+Bj , Puk, Bj @Puk.com
+Bd, Krekel, Bd@Krekel.com
+Bg, van Beers, Bg@van Beers.com
+X, van Beers, X@van Beers.com
 
 -------------------------------
 Geselecteerden zondag:
-K, de Wit, K@de Wit.com
-Bo, de Jong, Bo@de Jong.com
-Bj , Krekel, Bj @Krekel.com
-Ab, Smit, Ab@Smit.com
-At, de Wit, At@de Wit.com
-I, van Beers, I@van Beers.com
-Aw, Smit, Aw@Smit.com
-H, Smit, H@Smit.com
-Aq, de Jong, Aq@de Jong.com
-Bm, van Beers, Bm@van Beers.com
-O, de Jong, O@de Jong.com
-Ae, de Wit, Ae@de Wit.com
 Bl, Smit, Bl@Smit.com
-Bg, de Wit, Bg@de Wit.com
-Japie, Smit, Japie@Smit.com
-Bn, de Wit, Bn@de Wit.com
-As, van Beers, As@van Beers.com
-B, de Jong, B@de Jong.com
-Pietje, Puk, pietje@puk.nl
-Bm, de Jong, Bm@de Jong.com
-At, Jansen, At@Jansen.com
-F, Krekel, F@Krekel.com
-E, Jansen, E@Jansen.com
-Z, Puk, Z@Puk.com
-P , van Beers, P @van Beers.com
-L, Puk, L@Puk.com
-Aa, Puk, Aa@Puk.com
-M, Krekel, M@Krekel.com
-Ai, Smit, Ai@Smit.com
-V , de Jong, V @de Jong.com
-Au, Jansen, Au@Jansen.com
-Az, de Wit, Az@de Wit.com
-Ah, Krekel, Ah@Krekel.com
-An, Jansen, An@Jansen.com
-C, de Wit, C@de Wit.com
-Bd, Smit, Bd@Smit.com
-Bc, Krekel, Bc@Krekel.com
+O, Smit, O@Smit.com
+Ap , Krekel, Ap @Krekel.com
+Au, Puk, Au@Puk.com
+Bk, Krekel, Bk@Krekel.com
 S, Puk, S@Puk.com
+A, de Jong, A@de Jong.com
+F, Puk, F@Puk.com
+D, Jansen, D@Jansen.com
+Bb, Puk, Bb@Puk.com
+Aw, Krekel, Aw@Krekel.com
+Af, Jansen, Af@Jansen.com
+C, van Beers, C@van Beers.com
+T, Puk, T@Puk.com
+Ac, de Jong, Ac@de Jong.com
+J , de Wit, J @de Wit.com
+Y, Jansen, Y@Jansen.com
+Pietje, Krekel, Pietje@Krekel.com
+Bd, Smit, Bd@Smit.com
+Aj , de Jong, Aj @de Jong.com
+Be, de Jong, Be@de Jong.com
+Ao, Krekel, Ao@Krekel.com
+Bo, de Wit, Bo@de Wit.com
+As, van Beers, As@van Beers.com
+Ax, de Jong, Ax@de Jong.com
+Bh, Jansen, Bh@Jansen.com
+G, Smit, G@Smit.com
+Bk, Smit, Bk@Smit.com
+Ai, Smit, Ai@Smit.com
+Ay, de Jong, Ay@de Jong.com
+P , van Beers, P @van Beers.com
+Ba, Jansen, Ba@Jansen.com
+Japie, Krekel, jaap@krk.com
+Al, de Wit, Al@de Wit.com
+Ac, Smit, Ac@Smit.com
+W, van Beers, W@van Beers.com
+Ar, van Beers, Ar@van Beers.com
+T, Krekel, T@Krekel.com
 
-Niet geslecteerd zondag:
-Ar, de Jong, Ar@de Jong.com
-P , de Jong, P @de Jong.com
-Ao, Puk, Ao@Puk.com
-Bg, van Beers, Bg@van Beers.com
-Bd, Krekel, Bd@Krekel.com
-Bj , Puk, Bj @Puk.com
-W, de Jong, W@de Jong.com
-N, Krekel, N@Krekel.com
-Ah, Puk, Ah@Puk.com
+Niet geselecteerd zondag:
+Am, de Wit, Am@de Wit.com
+Bi, Jansen, Bi@Jansen.com
+U, Krekel, U@Krekel.com
+Ai, Krekel, Ai@Krekel.com
+M, Puk, M@Puk.com
 Az, van Beers, Az@van Beers.com
+Al, van Beers, Al@van Beers.com
+Af, de Wit, Af@de Wit.com
+Bf, de Jong, Bf@de Jong.com
+Z, Jansen, Z@Jansen.com
+Y, de Wit, Y@de Wit.com
 Bc, Puk, Bc@Puk.com
-Ae, van Beers, Ae@van Beers.com
-R, de Wit, R@de Wit.com
+J , van Beers, J @van Beers.com
 
 -------------------------------

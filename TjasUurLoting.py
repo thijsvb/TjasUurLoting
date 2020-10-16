@@ -64,7 +64,7 @@ TjassersMaandag = []
 TjassersDonderdag = []
 TjassersZondag = []
 
-zf = 22.0/26.0  # compensatiefactor omdat er meer plek is op zondag
+zf = 23.0/27.0  # compensatiefactor omdat er meer plek is op zondag
 
 # verdeel Tjassers zo gelijk mogelijk over de dagen
 for data in (list(recreantenData), list(hardrijdersData)):
@@ -100,7 +100,7 @@ for data in (list(recreantenData), list(hardrijdersData)):
                 TjassersZondag.append(Tjasser)
             # Opvanger voor het geval twee dagen even vol zitten
             else:
-                TjassersDonderdag.append(Tjasser) # wat als mensen 0 voorkeursdagen hebben ingevuld? dan komen ze ook hier terecht
+                TjassersDonderdag.append(Tjasser) # wat als mensen 0 voorkeursdagen hebben ingevuld? dan komen ze ook hier terecht. Antwoord: mensen met 0 voorkeursdagen kunnen niet trainen en schrijven zich dus ook niet in... hopelijk
 
 print("Totaal aantal Tjassers:", len(TjassersData))
 print("Pool maandag:", len(TjassersMaandag))
@@ -112,7 +112,7 @@ geselecteerdenDonderdag = []
 geselecteerdenZondag = []
 gesnDagen = (geselecteerdenMaandag, geselecteerdenDonderdag, geselecteerdenZondag)
 TjassersDagen = (TjassersMaandag, TjassersDonderdag, TjassersZondag)
-plekkenDagen = (22, 22, 26)
+plekkenDagen = (23, 23, 27)
 hf = 2/3  #compensatiefactor voor hardrijders
 
 for geselecteerden, Tjassers, plekken in zip(gesnDagen, TjassersDagen, plekkenDagen):
