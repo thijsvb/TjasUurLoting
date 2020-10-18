@@ -71,6 +71,9 @@ for data in (list(recreantenData), list(hardrijdersData)):
     for Tjasser in data:
 
         m, d, z = Tjasser[3:]
+        m = int(m)
+        d = int(d)
+        z = int(z)
 
         # Als de Tjasser maar op een dag kan, deel hem daar in
         if m+d+z == 1:
