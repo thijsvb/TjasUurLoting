@@ -113,7 +113,7 @@ geselecteerdenZondag = []
 gesnDagen = (geselecteerdenMaandag, geselecteerdenDonderdag, geselecteerdenZondag)
 TjassersDagen = (TjassersMaandag, TjassersDonderdag, TjassersZondag)
 plekkenDagen = (23, 23, 27)
-hf = 2/3  #compensatiefactor voor hardrijders
+hf = 3/2  #compensatiefactor voor hardrijders
 
 for geselecteerden, Tjassers, plekken in zip(gesnDagen, TjassersDagen, plekkenDagen):
     while len(geselecteerden) < plekken:
@@ -126,7 +126,7 @@ for geselecteerden, Tjassers, plekken in zip(gesnDagen, TjassersDagen, plekkenDa
             # vind wat het minst aantal keren geschaatst is van de rest
             emails = [T[2] for T in Tjassers]
             nschaatsen = [telling[e]['n'] for e in emails]
-            minN = min(nschaatsen)
+            minN = float(min(nschaatsen))
 
             # Compenseer minst aantal keren geschaatst voor hardrijders
             email = Tjasser[2]
