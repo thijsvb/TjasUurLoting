@@ -173,14 +173,11 @@ for geselecteerden, Tjassers, plekken in zip(gesnDagen, TjassersDagen, plekkenDa
 
 # Output de selectie
 f = open(selectieOut, 'w')
-for geselecteerden, pechvogels, dag in zip(gesnDagen, TjassersDagen, ("maandag", "donderdag", "zondag")):
+for geselecteerden, dag in zip(gesnDagen, ("maandag", "donderdag", "zondag")):
     f.write("Geselecteerden " + dag + ":\n")
     for geselecteerde in geselecteerden:
         f.write(", ".join(geselecteerde[0:3]) + '\n')
-    f.write("\nNiet geselecteerd " + dag + ":\n")
-    for pechvogel in pechvogels:
-        f.write(", ".join(pechvogel[0:3]) + '\n')
-    f.write("\n-------------------------------\n")
+    f.write("\n-------------------------------\n\n")
 f.close()
 
 # Export nieuwe telling
