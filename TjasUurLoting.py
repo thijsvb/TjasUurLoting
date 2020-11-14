@@ -26,6 +26,12 @@ for hr in hardrijders:
         telling[hr]["HR"] = True
     else:
         telling[hr] = {"HR": True, "n": 0}
+f.close()
+
+# Import donateurs
+f = open("donateurs.txt")
+donateurs = f.read().split('\n')
+f.close()
 
 # Import aanmeldingen
 # kolommen: Voornaam, Achternaam, email, maandag?, donderdag?, zondag?
@@ -126,13 +132,18 @@ for geselecteerden, Tjassers, plekken in zip(gesnDagen, TjassersDagen, plekkenDa
         while len(Tjassers) > 1:
             # pak de eerstvolgende Tjasser om te vergelijken met de rest
             Tjasser = Tjassers.pop()
+            email = Tjasser[2]
+
+            # donateurs mogen maar 3x schaatsen
+            if email in donateurs and telling[email]['n'] >= 3:
+                continue
+
             # vind wat het minst aantal keren geschaatst is van de rest
             emails = [T[2] for T in Tjassers]
             nschaatsen = [telling[e]['n'] for e in emails]
             minN = float(min(nschaatsen))
 
             # Compenseer minst aantal keren geschaatst voor hardrijders
-            email = Tjasser[2]
             if telling[email]["HR"]:
                 minN *= hf
             # Vergelijk het aantal keren geschaatst van de Tjasser met het minste aantal van de rest
