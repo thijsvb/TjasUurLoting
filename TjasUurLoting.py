@@ -70,7 +70,7 @@ TjassersMaandag = []
 TjassersDonderdag = []
 TjassersZondag = []
 
-zf = 23.0/27.0  # compensatiefactor omdat er meer plek is op zondag
+zf = 22.0/27.0  # compensatiefactor omdat er meer plek is op zondag
 
 # verdeel Tjassers zo gelijk mogelijk over de dagen
 for data in (list(recreantenData), list(hardrijdersData)):
@@ -81,35 +81,45 @@ for data in (list(recreantenData), list(hardrijdersData)):
         d = int(d)
         z = int(z)
 
-        # Als de Tjasser maar op een dag kan, deel hem daar in
-        if m+d+z == 1:
-            if m:
-                TjassersMaandag.append(Tjasser)
-            elif d:
-                TjassersDonderdag.append(Tjasser)
-            elif z:
-                TjassersZondag.append(Tjasser)
+        if m:
+            TjassersMaandag.append(Tjasser)
+        if d:
+            TjassersDonderdag.append(Tjasser)
+        if z:
+            TjassersZondag.append(Tjasser)
 
-        else:
-            mN, dN, zN = len(TjassersMaandag), len(TjassersDonderdag), len(TjassersZondag)*zf
+        # Aanpassing 14 nov.:
+        # onderstaand algorithme deelt elke Tjasser maar op één dag in, dat lijkt me bij nader inzien een onnodige beperking
 
-            # Als de Tjasser op de dag met de minste mensen kan, deel hem daar in
-            if min(mN, dN, zN) == mN and m:
-                TjassersMaandag.append(Tjasser)
-            elif min(mN, dN, zN) == dN and d:
-                TjassersDonderdag.append(Tjasser)
-            elif min(mN, dN, zN) == zN and z:
-                TjassersZondag.append(Tjasser)
-            # Probeer het anders op de dag waar niet de meeste mensen komen
-            elif max(mN, dN, zN) != mN and m:
-                TjassersMaandag.append(Tjasser)
-            elif max(mN, dN, zN) != dN and d:
-                TjassersDonderdag.append(Tjasser)
-            elif z:
-                TjassersZondag.append(Tjasser)
-            # Opvanger voor het geval twee dagen even vol zitten
-            else:
-                TjassersDonderdag.append(Tjasser) # wat als mensen 0 voorkeursdagen hebben ingevuld? dan komen ze ook hier terecht. Antwoord: mensen met 0 voorkeursdagen kunnen niet trainen en schrijven zich dus ook niet in... hopelijk
+        # # Als de Tjasser maar op een dag kan, deel hem daar in
+        # if m+d+z == 1:
+        #     if m:
+        #         TjassersMaandag.append(Tjasser)
+        #     elif d:
+        #         TjassersDonderdag.append(Tjasser)
+        #     elif z:
+        #         TjassersZondag.append(Tjasser)
+        #
+        # else:
+        #     mN, dN, zN = len(TjassersMaandag), len(TjassersDonderdag), len(TjassersZondag)*zf
+        #
+        #     # Als de Tjasser op de dag met de minste mensen kan, deel hem daar in
+        #     if min(mN, dN, zN) == mN and m:
+        #         TjassersMaandag.append(Tjasser)
+        #     elif min(mN, dN, zN) == dN and d:
+        #         TjassersDonderdag.append(Tjasser)
+        #     elif min(mN, dN, zN) == zN and z:
+        #         TjassersZondag.append(Tjasser)
+        #     # Probeer het anders op de dag waar niet de meeste mensen komen
+        #     elif max(mN, dN, zN) != mN and m:
+        #         TjassersMaandag.append(Tjasser)
+        #     elif max(mN, dN, zN) != dN and d:
+        #         TjassersDonderdag.append(Tjasser)
+        #     elif z:
+        #         TjassersZondag.append(Tjasser)
+        #     # Opvanger voor het geval twee dagen even vol zitten
+        #     else:
+        #         TjassersDonderdag.append(Tjasser) # wat als mensen 0 voorkeursdagen hebben ingevuld? dan komen ze ook hier terecht. Antwoord: mensen met 0 voorkeursdagen kunnen niet trainen en schrijven zich dus ook niet in... hopelijk
 
 print("Totaal aantal Tjassers:", len(TjassersData))
 print("Pool maandag:", len(TjassersMaandag))
@@ -121,7 +131,7 @@ geselecteerdenDonderdag = []
 geselecteerdenZondag = []
 gesnDagen = (geselecteerdenMaandag, geselecteerdenDonderdag, geselecteerdenZondag)
 TjassersDagen = (TjassersMaandag, TjassersDonderdag, TjassersZondag)
-plekkenDagen = (23, 23, 27)
+plekkenDagen = (22, 22, 27)
 hf = 3/2  #compensatiefactor voor hardrijders
 
 for geselecteerden, Tjassers, plekken in zip(gesnDagen, TjassersDagen, plekkenDagen):
